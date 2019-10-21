@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+	<RelativeLayout android:layout_width="match_parent"
+	                android:layout_height="match_parent">
+		<com.google.android.material.tabs.TabLayout
+				android:id="@+id/movie_part_tab_layout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top">
+			<com.google.android.material.tabs.TabItem
+					android:text="Популярные"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+
+			<com.google.android.material.tabs.TabItem
+					android:text="Скоро на экранах"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+		</com.google.android.material.tabs.TabLayout>
+		<androidx.viewpager.widget.ViewPager
+				android:layout_below="@+id/movie_part_tab_layout"
+				android:id="@+id/movie_part_view_pager"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+		</androidx.viewpager.widget.ViewPager>
+	</RelativeLayout>
+
+</FrameLayout>

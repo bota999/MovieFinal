@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="GenreItemView">
+		<attr name="back_color" format="integer"/>
+		<attr name="text" format="string"/>
+	</declare-styleable>
+
+	<declare-styleable name="GenreChoiceButton">
+		<attr name="genres" format="string"/>
+		<attr name="title" format="string"/>
+	</declare-styleable>
+
+
+</resources>

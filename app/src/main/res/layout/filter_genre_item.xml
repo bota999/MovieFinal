@@ -1,0 +1,25 @@
+<androidx.cardview.widget.CardView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		app:cardElevation="6dp"
+		android:layout_margin="10dp"
+		android:id="@+id/fruitCardView">
+
+	<TextView
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/textView"
+			android:layout_width="match_parent"
+			android:textSize="18sp"
+			android:text="text"
+			android:padding="5dp"
+			android:gravity="center"
+			android:layout_height="wrap_content"/>
+	<CheckBox
+			android:id="@+id/filter_genre_list_item_cb"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="end"/>
+
+</androidx.cardview.widget.CardView>

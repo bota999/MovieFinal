@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kz.movieapp.moviedb.customview.GenreItemView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:customviews="http://schemas.android.com/apk/res-auto"
+		android:clickable="true"
+		android:focusable="true"
+		android:foreground="?android:attr/selectableItemBackground"
+		android:background="?android:selectableItemBackground"
+		android:id="@+id/genre_item_rv"
+		customviews:text="Боевик"
+		android:layout_below="@id/text" android:layout_width="180dp"
+		android:layout_height="300dp"/>
